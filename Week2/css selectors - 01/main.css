@@ -6,18 +6,14 @@ a:visited {
     color: grey;
 }
 
-a:active {
-    color: purple;
-}
-
 li:hover {
     color: blue;
 }
 
-a:link:hover {
+a:hover {
     color: orange;
 }
 
-a:link:active {
+a:active {
     color: purple;
 }
