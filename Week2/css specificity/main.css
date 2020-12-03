@@ -1,0 +1,119 @@
+/* 1 */
+
+div,
+p,
+h1 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    font-size: 1rem;
+}
+
+
+/* 1 */
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    color: aqua;
+    width: 90%;
+    height: auto;
+    border: 1px dotted red;
+    font-family: 'Gill Sans';
+}
+
+
+/* 1 */
+
+h1 {
+    margin-left: 25%;
+    width: 50%;
+    height: auto;
+    border: 1px dashed black;
+    color: cornflowerblue;
+    font-size: 2.5rem;
+}
+
+
+/* 100 */
+
+#header {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: Georgia;
+}
+
+
+/* 10 */
+
+.mydiv {
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+}
+
+
+/* 2 */
+
+p span {
+    color: orange;
+}
+
+
+/* 12 */
+
+p:first-child span {
+    color: black;
+}
+
+
+/* 11 */
+
+p:first-child {
+    border: 2px solid blue;
+    color: gold;
+}
+
+
+/* 12 */
+
+p:only-child span {
+    color: blue;
+}
+
+
+/* 11*/
+
+p:only-child {
+    border: 2px dashed black;
+    color: brown;
+}
+
+
+/* 12 */
+
+p:nth-child(3) span {
+    color: purple;
+}
+
+
+/* 10 */
+
+.one {
+    color: green;
+}
+
+
+/* 10 */
+
+.two {
+    color: red;
+}
+
+
+/* 10 */
+
+.three {
+    color: blue;
+}

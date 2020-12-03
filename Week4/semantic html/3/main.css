@@ -1,0 +1,57 @@
+header,
+nav,
+section,
+article,
+aside,
+footer {
+    height: 6rem;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+
+header {
+    background: red;
+}
+
+nav {
+    background: orange;
+}
+
+section {
+    height: 100%;
+    background: gold;
+}
+
+article {
+    background: green;
+}
+
+aside {
+    height: 100%;
+    width: 30%;
+    background: blue;
+}
+
+footer {
+    background: purple;
+}
+
+.main {
+    height: 18rem;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.section {
+    height: 100%;
+    width: 70%;
+}
+
+.article {
+    width: 100%;
+    padding-top: 6rem;
+    vertical-align: baseline;
+    bottom: 0;
+}

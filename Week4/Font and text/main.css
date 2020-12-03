@@ -1,0 +1,53 @@
+html {
+    font-family: sans-serif;
+}
+
+.heading {
+    text-shadow: red -.2rem .2rem .5rem;
+}
+
+.serif_font {
+    font-family: serif;
+}
+
+.serif_font span {
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.sans-serif_font {
+    font-family: sans-serif;
+    text-indent: 1rem;
+}
+
+.google_fonts {
+    font-family: 'Roboto', sans-serif;
+}
+
+.google_fonts p:nth-child(1) {
+    font-weight: 300;
+}
+
+.google_fonts p:nth-child(2) {
+    font-weight: 400;
+}
+
+.google_fonts p:nth-child(3) {
+    font-weight: 900;
+}
+
+.phrase {
+    letter-spacing: 1rem;
+}
+
+.mylink {
+    text-decoration: none;
+}
+
+.mylink:hover {
+    text-decoration: underline;
+}
+
+.not_relevant {
+    text-decoration: line-through;
+}

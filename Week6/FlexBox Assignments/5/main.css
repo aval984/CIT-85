@@ -1,0 +1,46 @@
+body,
+main {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+main {
+    height: 200px;
+    width: 600px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.group {
+    flex-basis: 75%;
+    border: 2px solid red;
+    border-left: none;
+}
+
+.div1 {
+    height: 100%;
+    border: 2px solid red;
+    background-color: darkblue;
+    flex-basis: 25%;
+    float: left;
+}
+
+.div2 {
+    background-color: cornflowerblue;
+    flex-basis: 75%;
+    height: 50%;
+}
+
+.div3 {
+    background-color: lightblue;
+    flex-basis: 75%;
+    height: 50%;
+}

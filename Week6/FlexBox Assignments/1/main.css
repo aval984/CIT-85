@@ -1,0 +1,31 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+div {
+    width: 6rem;
+    height: 4rem;
+    border: 1px solid black;
+    background-color: red;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 1rem;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+}
+
+#num20 {
+    flex-grow: 2;
+}

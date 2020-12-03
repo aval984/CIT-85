@@ -1,0 +1,66 @@
+body {
+    background: none;
+    border: none;
+    height: 60rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.ss {
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.sc {
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.se {
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+
+.cs {
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.cc {
+    justify-content: center;
+    align-content: center;
+}
+
+.ce {
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.es {
+    justify-content: flex-start;
+    align-content: flex-end;
+}
+
+.ec {
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.ee {
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+div {
+    height: 6rem;
+    width: 6rem;
+    margin: 1em;
+    background-color: red;
+    border: 2px solid black;
+    text-align: center;
+}
+
+a {
+    display: block;
+}

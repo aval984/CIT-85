@@ -1,0 +1,40 @@
+body {
+    height: 20rem;
+    border: 1px dotted blue;
+    padding-top: 5rem;
+    box-sizing: border-box;
+}
+
+div {
+    height: 2rem;
+    width: 4rem;
+    border: 1px solid black;
+    margin: 0 auto;
+    border-radius: 4px;
+    margin-top: .3rem;
+}
+
+.main {
+    height: 10rem;
+    width: 50%;
+    margin: 0 auto;
+    border: 1px dotted blue;
+    box-sizing: border-box;
+}
+
+.red {
+    margin-top: .3rem;
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.gold {
+    background-color: gold;
+}
+
+.brown {
+    background-color: brown;
+}

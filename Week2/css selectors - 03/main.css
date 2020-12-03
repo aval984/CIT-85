@@ -1,0 +1,14 @@
+p {
+    padding-top: 1rem;
+    font-family: serif;
+}
+
+p::first-letter {
+    font-family: fantasy;
+    font-size: 1.5rem;
+    line-height: 1rem;
+}
+
+p::first-line {
+    color: blue;
+}

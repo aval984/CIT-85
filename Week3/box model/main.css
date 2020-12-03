@@ -1,0 +1,27 @@
+div {
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    border: 1px solid red;
+}
+
+span {
+    border: 1px dotted blue;
+    padding: 10px;
+}
+
+.div_inline {
+    display: inline;
+}
+
+.div_block {
+    display: block;
+}
+
+.span_inline {
+    display: inline;
+}
+
+.span_block {
+    display: block;
+}
