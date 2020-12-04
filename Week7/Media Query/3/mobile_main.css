@@ -1,0 +1,28 @@
+body,
+ul,
+div,
+nav,
+article,
+li {
+    justify-content: center;
+}
+
+nav {
+    flex-basis: 100%;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+article {
+    flex-basis: 100%;
+}
+
+ul {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+li {
+    padding: 1rem;
+}

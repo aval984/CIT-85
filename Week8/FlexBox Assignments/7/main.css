@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header,
+article,
+aside,
+footer {
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header {
+    background-color: red;
+}
+
+article {
+    background-color: cornflowerblue;
+    text-align: left;
+}
+
+.a1 {
+    background-color: gold;
+}
+
+.a2 {
+    background-color: pink;
+}
+
+footer {
+    background-color: lightgreen;
+}

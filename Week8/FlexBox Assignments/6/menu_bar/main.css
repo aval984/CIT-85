@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+a {
+    padding: 1rem 0;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    display: block;
+}

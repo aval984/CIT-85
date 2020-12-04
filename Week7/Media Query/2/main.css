@@ -1,0 +1,53 @@
+body,
+main {
+    height: 100%;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 800px;
+    border: 2px dotted red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+div {
+    height: 6rem;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div1 {
+    background-color: red;
+    flex-basis: 100%;
+}
+
+.div2 {
+    background-color: lightblue;
+    flex-basis: 60%;
+}
+
+.div3 {
+    background-color: lightgreen;
+    flex-basis: 40%;
+}
+
+.div4 {
+    background-color: yellow;
+    flex-basis: 50%;
+}
+
+.div5 {
+    background-color: plum;
+    flex-basis: 50%;
+}

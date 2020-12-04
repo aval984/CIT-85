@@ -1,0 +1,24 @@
+.div1 {
+    background-color: red;
+    flex-basis: 100%;
+}
+
+.div2 {
+    background-color: lightblue;
+    flex-basis: 100%;
+}
+
+.div3 {
+    background-color: lightgreen;
+    flex-basis: 100%;
+}
+
+.div4 {
+    background-color: yellow;
+    flex-basis: 100%;
+}
+
+.div5 {
+    background-color: plum;
+    flex-basis: 100%;
+}
