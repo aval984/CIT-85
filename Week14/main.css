@@ -1,0 +1,16 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 100%;
+}
+
+div:hover {
+    background-color: red;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+
+}

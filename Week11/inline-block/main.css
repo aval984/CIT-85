@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.div1 {
+    height: 200px;
+    border: 10px solid blue;
+    background-color: gold;
+}
+
+.div4 {
+    height: 200px;
+    border: 10px solid red;
+    background-color: purple;
+}
+
+.mid {
+    height: 250px;
+    background-color: black;
+    border: 10px solid darkgreen;
+}
+
+.div2,
+.div3 {
+    box-sizing: border-box;
+    height: 250px;
+    border: 5px solid black;
+    display: inline-block;
+}
+
+.div2 {
+    width: 19.9%;
+    box-sizing: border-box;
+    background-color: cyan;
+}
+
+.div3 {
+    width: 79.8%;
+    box-sizing: border-box;
+    background-color: lightgreen;
+}

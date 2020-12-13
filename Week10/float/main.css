@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+div {
+    border: 2px solid red;
+    margin: 20px;
+    overflow: auto;
+}
+
+img {
+    margin: 20px;
+    border: 2px solid red;
+}
+
+.div1 img {
+    float: right;
+}
+
+.div2 img {
+    float: left;
+}

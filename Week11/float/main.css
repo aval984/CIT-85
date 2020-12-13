@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.div1 {
+    height: 200px;
+    border: 10px solid blue;
+    background-color: gold;
+}
+
+.div4 {
+    clear: both;
+    height: 200px;
+    border: 10px solid red;
+    background-color: purple;
+}
+
+.mid {
+    height: 250px;
+    border: 10px solid darkgreen;
+    overflow: auto;
+}
+
+.div2,
+.div3 {
+    height: 100%;
+    border: 5px solid black;
+}
+
+.div2 {
+    float: left;
+    width: 20%;
+    background-color: cyan;
+}
+
+.div3 {
+    float: right;
+    width: 80%;
+    background-color: lightgreen;
+}
